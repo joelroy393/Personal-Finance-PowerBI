@@ -48,7 +48,7 @@ Net_Savings = [Total_Income_Calc] - [Total_Expense_Amount]
 - Time intelligence functions for MoM comparisons
 - **Dynamic calculations that respond to slicers and filters
 
-
+---
 ##Dashboard Insights
 
 - Real-time financial health monitoring
