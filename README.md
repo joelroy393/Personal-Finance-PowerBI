@@ -44,7 +44,7 @@ CALCULATE(
 
 // Net Savings
 Net_Savings = [Total_Income_Calc] - [Total_Expense_Amount]
-
+```
 Custom DAX measures with proper measure branching
 Time intelligence functions for MoM comparisons
 Dynamic calculations that respond to slicers and filters
@@ -81,3 +81,9 @@ Advancement Goals – Iteration 2
  Integrate Python scripts for forecasting (trend & anomaly detection)
  Custom themes and advanced UI/UX (bookmarks, drill-through, tooltips)
  Automated data refresh pipeline
+
+ Custom DAX measures with proper measure branching
+Time intelligence functions for MoM comparisons
+Dynamic calculations that respond to slicers and filters
+
+
