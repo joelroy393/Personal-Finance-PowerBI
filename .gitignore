@@ -1,1 +1,32 @@
+# Power BI Files - Keep only the ones you want versioned
+*.pbix
+*.pbit
 
+# Power BI temporary/cache files
+*.cache
+*.lock
+*.tmp
+*.pbix~
+
+# Large data files (uncomment if your Excel grows big)
+/data/*.xlsx
+/data/*.csv
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Future Python / virtual env (Iteration 2)
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Logs
+*.log
