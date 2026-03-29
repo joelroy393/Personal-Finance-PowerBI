@@ -35,19 +35,18 @@ Transform messy raw financial data into actionable insights with real-time KPI t
 
 ### 2. Analytical Logic (DAX)
 ```dax
+// Total Income
+Total_Income_Calc = CALCULATE(SUM('Sheet1'[Amount]),'Sheet1'[Type] = "Income")
+
 // Total Expenses
-Total_Expense_Amount = 
-CALCULATE(
-    SUM('Sheet1'[Amount]),
-    'Sheet1'[Type] = "Expense"
-)
+Total_Expense_Amount = CALCULATE(SUM('Sheet1'[Amount]),'Sheet1'[Type] = "Expense")
 
 // Net Savings
 Net_Savings = [Total_Income_Calc] - [Total_Expense_Amount]
 ```
-Custom DAX measures with proper measure branching
-Time intelligence functions for MoM comparisons
-Dynamic calculations that respond to slicers and filters
+## . Custom DAX measures with proper measure branching
+## .Time intelligence functions for MoM comparisons
+## .Dynamic calculations that respond to slicers and filters
 
 
 Dashboard Insights
