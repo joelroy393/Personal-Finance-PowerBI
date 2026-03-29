@@ -71,26 +71,26 @@ Net_Savings = [Total_Income_Calc] - [Total_Expense_Amount]
 
 ### Project Goals Achieved
 
- -End-to-end data transformation pipeline
- -Production-quality interactive dashboard
- -Advanced DAX calculations beyond basic Excel logic
- -Clean, professional, and user-friendly design
+ - End-to-end data transformation pipeline
+ - Production-quality interactive dashboard
+ - Advanced DAX calculations beyond basic Excel logic
+ - Clean, professional, and user-friendly design
 
 ---
 
 ### Advancement Goals – Iteration 2
 
- -Connect dashboard to a live SQL database
- -Integrate Python scripts for forecasting (trend & anomaly detection)
- -Custom themes and advanced UI/UX (bookmarks, drill-through, tooltips)
- -Automated data refresh pipeline
+ - Connect dashboard to a live SQL database
+ - Integrate Python scripts for forecasting (trend & anomaly detection)
+ - Custom themes and advanced UI/UX (bookmarks, drill-through, tooltips)
+ - Automated data refresh pipeline
 
 ---
 
 ### Tools & Technologies
 
--Power BI Desktop
--DAX & Power Query (M)
--Star Schema Modeling
+- Power BI Desktop
+- DAX & Power Query (M)
+- Star Schema Modeling
 
 ---
