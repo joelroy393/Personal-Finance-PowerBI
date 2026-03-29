@@ -51,7 +51,7 @@ Net_Savings = [Total_Income_Calc] - [Total_Expense_Amount]
 
 Dashboard Insights
 
-- **Real-time financial health monitoring
+- Real-time financial health monitoring
 - **Clear visibility into spending patterns by category
 - **Identification of monthly trends and seasonality
 - **Quick detection of cash flow issues through burn rate tracking
