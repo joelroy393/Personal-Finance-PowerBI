@@ -1,49 +1,83 @@
-Project: Financial Intelligence Dashboard (Iteration 1)
-Portfolio Context
-This is the first project in my Data Analyst Portfolio. My goal is to master the full lifecycle of data—from raw ingestion to high-level business intelligence—and to document my progression as I advance my technical stack (Power BI, SQL, Python).
+# Financial Intelligence Dashboard (Iteration 1)
 
-Objective
-The primary objective of this iteration was to move from raw data to a functional, interactive dashboard as efficiently as possible. I focused on establishing a solid foundation in ETL (Extract, Transform, Load) processes and DAX (Data Analysis Expressions) logic.
+**Personal Finance Analytics Dashboard built with Power BI**
 
-Technical Implementation
-1. Data Transformation (Power Query)
-Cleaned and structured raw financial datasets.
+![Power BI](https://img.shields.io/badge/Power%20BI-FF0000?style=for-the-badge&logo=powerbi&logoColor=white)
+![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge)
+![Power Query](https://img.shields.io/badge/Power%20Query-00B4A8?style=for-the-badge)
 
-Implemented a dynamic date hierarchy for time-series analysis.
+## Overview
 
-Managed data types to ensure calculation accuracy across all measures.
+This is the **first project** in my Data Analyst portfolio. The goal of this iteration was to take raw financial transaction data through the complete data lifecycle — from ingestion and cleaning to building an interactive, production-ready business intelligence dashboard.
 
-2. Analytical Logic (DAX)
-To move beyond basic Excel-style filtering, I developed custom measures using DAX. This allows the dashboard to recalculate instantly based on user interaction.
+### Objective
+Transform messy raw financial data into actionable insights with real-time KPI tracking, spending analysis, and trend visualization using Power BI.
 
-// Calculates total burn rate by isolating expense transactions
+---
+
+## Key Features
+
+- **Live KPI Cards**: Track Total Income, Total Expenses, Net Savings, and Burn Rate
+- **Spending Breakdown**: Interactive donut charts by category (Rent, Groceries, Tech, etc.)
+- **Time-Series Analysis**: Month-over-month trends comparing Income vs Expenses
+- **Dynamic Date Hierarchy**: Drill down from Year → Quarter → Month → Day
+- **Fully Interactive**: All visuals cross-filter and update instantly
+
+---
+
+## Technical Implementation
+
+### 1. Data Transformation (Power Query)
+- Cleaned and standardized raw transaction data
+- Proper data type handling for accurate calculations
+- Created a dynamic date table for advanced time intelligence
+- Implemented star schema data modeling
+
+### 2. Analytical Logic (DAX)
+```dax
+// Total Expenses
 Total_Expense_Amount = 
 CALCULATE(
-    SUM('Sheet1'[Amount]), 
+    SUM('Sheet1'[Amount]),
     'Sheet1'[Type] = "Expense"
 )
 
-// Measures net liquidity (Income vs. Expenses)
+// Net Savings
 Net_Savings = [Total_Income_Calc] - [Total_Expense_Amount]
+
+Custom DAX measures with proper measure branching
+Time intelligence functions for MoM comparisons
+Dynamic calculations that respond to slicers and filters
+
+
 Dashboard Insights
-KPI Tracking: Real-time visibility into Income, Expenses, and Savings.
 
-Categorical Analysis: A breakdown of spending habits (e.g., Tech, Rent, Groceries) via interactive Donut Charts.
+Real-time financial health monitoring
+Clear visibility into spending patterns by category
+Identification of monthly trends and seasonality
+Quick detection of cash flow issues through burn rate tracking
 
-Time-Series Trends: A month-over-month comparison of earnings versus spending to track financial health.
 
 Skills Demonstrated
-Business Intelligence: Power BI Desktop
 
+Business Intelligence: Power BI Desktop (Report & Model view)
 Languages: DAX, M (Power Query)
+Data Modeling: Star Schema, Relationships, and Measure Branching
+Workflow: Iterative development, version control, and documentation
+Analytics: KPI design, trend analysis, and stakeholder-friendly visualizations
 
-Data Modeling: Star Schema basics and Measure Branching
 
-Workflow: Version control and iterative development
+Project Goals Achieved
 
-Advancement Goals for Iteration 2
-[ ] Connect the dashboard to a live SQL database.
+ End-to-end data transformation pipeline
+ Production-quality interactive dashboard
+ Advanced DAX calculations beyond basic Excel logic
+ Clean, professional, and user-friendly design
 
-[ ] Integrate Python scripts for advanced trend forecasting.
 
-[ ] Enhance UI/UX with custom themes and advanced drill-through actions.
+Advancement Goals – Iteration 2
+
+ Connect dashboard to a live SQL database
+ Integrate Python scripts for forecasting (trend & anomaly detection)
+ Custom themes and advanced UI/UX (bookmarks, drill-through, tooltips)
+ Automated data refresh pipeline
