@@ -69,7 +69,7 @@ Net_Savings = [Total_Income_Calc] - [Total_Expense_Amount]
 
 ---
 
-### Project Goals Achieved
+## Project Goals Achieved
 
  - End-to-end data transformation pipeline
  - Production-quality interactive dashboard
@@ -78,7 +78,7 @@ Net_Savings = [Total_Income_Calc] - [Total_Expense_Amount]
 
 ---
 
-### Advancement Goals – Iteration 2
+## Advancement Goals – Iteration 2
 
  - Connect dashboard to a live SQL database
  - Integrate Python scripts for forecasting (trend & anomaly detection)
@@ -87,7 +87,7 @@ Net_Savings = [Total_Income_Calc] - [Total_Expense_Amount]
 
 ---
 
-### Tools & Technologies
+## Tools & Technologies
 
 - Power BI Desktop
 - DAX & Power Query (M)
