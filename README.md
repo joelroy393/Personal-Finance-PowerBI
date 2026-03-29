@@ -49,7 +49,7 @@ Net_Savings = [Total_Income_Calc] - [Total_Expense_Amount]
 - **Dynamic calculations that respond to slicers and filters
 
 
-Dashboard Insights
+##Dashboard Insights
 
 - Real-time financial health monitoring
 - Clear visibility into spending patterns by category
@@ -57,7 +57,7 @@ Dashboard Insights
 - Quick detection of cash flow issues through burn rate tracking
 
 
-Skills Demonstrated
+##Skills Demonstrated
 
 - **Business Intelligence**: Power BI Desktop (Report & Model view)
 - **Languages**: DAX, M (Power Query)
@@ -66,23 +66,24 @@ Skills Demonstrated
 - **Analytics**: KPI design, trend analysis, and stakeholder-friendly visualizations
 
 
-Project Goals Achieved
+##Project Goals Achieved
 
-- End-to-end data transformation pipeline
- - Production-quality interactive dashboard
- - Advanced DAX calculations beyond basic Excel logic
- - Clean, professional, and user-friendly design
-
-
-Advancement Goals – Iteration 2
-
- - Connect dashboard to a live SQL database
- - Integrate Python scripts for forecasting (trend & anomaly detection)
- - Custom themes and advanced UI/UX (bookmarks, drill-through, tooltips)
- - Automated data refresh pipeline
-
- - Custom DAX measures with proper measure branching
-- Time intelligence functions for MoM comparisons
-- Dynamic calculations that respond to slicers and filters
+ -End-to-end data transformation pipeline
+ -Production-quality interactive dashboard
+ -Advanced DAX calculations beyond basic Excel logic
+ -Clean, professional, and user-friendly design
 
 
+##Advancement Goals – Iteration 2
+
+ -Connect dashboard to a live SQL database
+ -Integrate Python scripts for forecasting (trend & anomaly detection)
+ -Custom themes and advanced UI/UX (bookmarks, drill-through, tooltips)
+ -Automated data refresh pipeline
+
+
+##Tools & Technologies
+
+-Power BI Desktop
+-DAX & Power Query (M)
+-Star Schema Modeling
