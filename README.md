@@ -80,7 +80,6 @@ Net_Savings = [Total_Income_Calc] - [Total_Expense_Amount]
 
 ## Advancement Goals – Iteration 2
 
- - Connect dashboard to a live SQL database
  - Integrate Python scripts for forecasting (trend & anomaly detection)
  - Custom themes and advanced UI/UX (bookmarks, drill-through, tooltips)
  - Automated data refresh pipeline
